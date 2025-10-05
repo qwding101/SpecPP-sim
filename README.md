@@ -1,10 +1,10 @@
-# Instruction: Download BCI data
+# SpecPP-sim
 
-The BCI data used in our article can be found from the Supporting Information of below article.
+This repository contains the R code used to reproduce the results in **Ding et al. (2025)**, which focuses on methodological evaluation through simulation studies. It includes the following folders:
 
-> Jalilian, A., Guan, Y., Mateu, J., & Waagepetersen, R. (2015). Multivariate Product-Shot-Noise Cox Point Process Models. Biometrics, 71, 1022–1033. [https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.12339](https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.12339)
+- `data/` contains the simulated datasets (along with the code used to generate them) and the BCI dataset.  
+- `func/` contains custom R functions used throughout this repository.  
+- `estimate/` contains the code for computing the pseudo-spectrum in our simulation models.  
+- `compile/` contains the code for generating the tables and figures presented in the paper.  
 
-Download and unzip `biom12339-sup-0001-SuppDataCode.zip` from above link. Then copy below two `.Rda` files to this folder.
-
-- `140709MR_bci7.Rda`
-- `140709MR_bci.covars.Rda`
+For readers who are primarily interested in **applying our statistical method to real-world datasets**, please refer to the companion repository [**SpecPP**](https://github.com/qwding101/SpecPP).
