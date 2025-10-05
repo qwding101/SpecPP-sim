@@ -8,3 +8,6 @@ This repository contains the R code used to reproduce the results in **Ding et a
 - `compile/` contains the code for generating the tables and figures presented in the paper.  
 
 For readers who are primarily interested in **applying our statistical method to real-world datasets**, please refer to the companion repository [**SpecPP**](https://github.com/qwding101/SpecPP).
+
+## Reference
+Ding, Q. W., Yang, J., & Shin, J. (2025). Pseudo-spectra of multivariate inhomogeneous spatial point processes. arXiv preprint [arXiv:2502.09948](https://arxiv.org/abs/2502.09948).
