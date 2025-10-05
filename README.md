@@ -1,6 +1,6 @@
 # SpecPP-sim
 
-This repository contains the R code used to reproduce the results in **Ding et al. (2025)**, which focuses on methodological evaluation through simulation studies. It includes the following folders:
+This repository contains the R code used to reproduce the results in **Ding et al. (2025)**, which focuses on methodological evaluation through simulation. It includes the following folders:
 
 - `data/` contains the simulated datasets (along with the code used to generate them) and the BCI dataset.  
 - `func/` contains custom R functions used throughout this repository.  
