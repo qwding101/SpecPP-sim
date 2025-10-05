@@ -1,0 +1,26 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, booktabs, caption} 
+
+
+\begin{document}
+
+\begin{table}
+	\caption*{Table 1: The three quartiles (second to fourth row) and the average (fifth row) of $b_\text{CV}$ from 500
+		replications for each window and model. The first row indicates the optimal bandwidth.}
+	\centering
+	\begin{tabular}[t]{cccccccccc}
+		\toprule
+		\multicolumn{1}{c}{ } & \multicolumn{3}{c}{$D = [-5,5]^2$} & \multicolumn{3}{c}{$D = [-10,10]^2$} & \multicolumn{3}{c}{$D = [-20,20]^2$} \\
+		\cmidrule(l{3pt}r{3pt}){2-4} \cmidrule(l{3pt}r{3pt}){5-7} \cmidrule(l{3pt}r{3pt}){8-10}
+		& M1 & M2 & M3 & M1 & M2 & M3 & M1 & M2 & M3\\
+		\midrule
+		$b_\text{opt}$ & 0.50 & 0.50 & 0.50 & 0.37 & 0.37 & 0.37 & 0.29 & 0.29 & 0.29\\
+		Q1 & 1.13 & 1.06 & 1.08 & 0.59 & 0.54 & 0.55 & 0.37 & 0.28 & 0.28\\
+		Q2 & 1.51 & 1.18 & 1.18 & 0.76 & 0.60 & 0.60 & 0.40 & 0.30 & 0.30\\
+		Q3 & 1.88 & 1.55 & 1.53 & 0.84 & 0.77 & 0.75 & 0.40 & 0.32 & 0.30\\
+		Mean & 1.61 & 1.26 & 1.29 & 0.80 & 0.66 & 0.65 & 0.39 & 0.31 & 0.30\\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\end{document}
